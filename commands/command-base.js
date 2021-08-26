@@ -1,6 +1,6 @@
 const Discord = require("discord.js")
 
-const botConfig = require("../configs/botConfig.json");
+const botConfig = require("../bot_configs/config.json");
 const blacklist = require("../blacklist.js");
 
 const validatePermissions = (permissions) => {

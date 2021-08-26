@@ -2,7 +2,7 @@ const Discord = require("discord.js")
 const YouTubeAPI = require("simple-youtube-api")
 
 const ytdl = require("ytdl-core")
-const botConfig = require("./configs/botConfig.json")
+const botConfig = require("./bot_configs/config.json")
 
 const youtube = new YouTubeAPI(botConfig.youtubeAPIKey)
 

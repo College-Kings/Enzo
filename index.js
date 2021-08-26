@@ -3,7 +3,7 @@ const Discord = require("discord.js")
 const client = new Discord.Client({ partials: ['MESSAGE', 'CHANNEL', 'REACTION'] })
 
 const loadCommands = require("./commands/load-commands");
-const botConfig = require("./configs/botConfig.json");
+const botConfig = require("./bot_configs/config.json");
 const music = require("./musicFunctions")
 
 let servers = {};
